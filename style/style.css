@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;   
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: cornflowerblue;
+}
+
+.navigation {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.navigation h2 {
+    margin-right: 7px;
+}
+
+.input, .btn {
+    padding: 10px;
+}
+
+.input {
+    width: 65%;
+    margin-right: 10px;
+    background-color: ghostwhite;
+}
+
+.btn {
+    width: 9%;
+    cursor: pointer;
+    background-color: antiquewhite;
+}
+
+.board {
+    display: flex;
+    justify-content: space-between;
+}
+
+.toDo,
+.inProgress,
+.done {
+    width: 30%;
+    min-height: 400px;
+    padding: 10px;
+    margin: 0 10px;
+    border-radius: 5px;
+    background-color: antiquewhite;
+}
+
+.column h2 {
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    background-color: wheat;
+}
+
+.board h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.toDo-nav-line {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.remove {
+    padding: 5px 10px;
+    background-color: mintcream;
+}
+
+.btn-todo {
+    margin-left: 70px;
+    padding: 7px;
+    background-color: mintcream;
+}
